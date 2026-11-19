@@ -47,14 +47,14 @@ Desktop app with admin and member roles: catalogue, borrowing and return request
 
 ### Professional & private work (code not public)
 - **Kompass**: tracking and process-automation web app built during my internship at **Steros** (Sfax, 2026). `ASP.NET Core` `Next.js` `PostgreSQL`
-- **Pulse**: health-tracking platform (wearable-style metrics) with an API and a mobile app. `.NET 10` `PostgreSQL` `Flutter`
+- **Pulse**: health-tracking platform (wearable-style metrics) with an API and a mobile app. `.NET 10` `PostgreSQL` `React Native (Expo)`
 
 ---
 
 ## 🛠️ Tech stack
 **AI/ML:** Python · PyTorch · Hugging Face Transformers · PEFT/LoRA · scikit-learn · LLM APIs · MCP
 **Backend:** C# / .NET · ASP.NET Core · FastAPI · Flask · Java / Spring · PHP
-**Frontend & mobile:** React · Angular · Next.js · Flutter
+**Frontend & mobile:** React · Angular · Next.js · React Native · Flutter
 **Data & tools:** PostgreSQL · MySQL · SQL Server · Redis · Docker · Git
 
 **Languages:** English (fluent) · French (intermediate) · Arabic (native)
