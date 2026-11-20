@@ -10,6 +10,13 @@ I'm looking for a **6-month final-year internship (PFE) in AI/ML starting Januar
 
 ## 🧠 AI / Machine Learning projects
 
+### [📚 PaperTrail: research-paper RAG assistant with verifiable citations](https://github.com/baatimed5-jpg/research-paper-rag)
+Reads scientific papers and answers questions with a **citation on every claim**, pointing to the exact passage and page. It also compares papers side by side, extracts key findings and finds research gaps.
+- **Pipeline:** PDF parsing with section and page detection → semantic chunking → **hybrid search** (BM25 + BGE embeddings, Reciprocal Rank Fusion) → **cross-encoder reranking** → grounded LLM (GPT-OSS-120B) with citation checking.
+- **Measured:** on 160 benchmark questions, reranking finds the exact source passage first **79%** of the time (Recall@10 **96%**), and **93%** of answer claims are supported by their citation (LLM judge).
+
+`Python` `RAG` `Sentence-Transformers` `BM25` `Cross-encoder` `PyMuPDF` `FastAPI` `React`
+
 ### [🛡️ AegisMCP: intelligent MCP gateway for LLM agents](https://github.com/baatimed5-jpg/aegis-mcp)
 A gateway between LLM agents and MCP tool servers. Every tool call passes through a security and optimization pipeline:
 - **Security:** PII masking (Presidio), prompt-injection detection (fine-tuned **DeBERTa** + rules + an LLM judge), and human approval for risky tools.
@@ -52,7 +59,7 @@ Desktop app with admin and member roles: catalogue, borrowing and return request
 ---
 
 ## 🛠️ Tech stack
-**AI/ML:** Python · PyTorch · Hugging Face Transformers · PEFT/LoRA · scikit-learn · LLM APIs · MCP
+**AI/ML:** Python · PyTorch · Hugging Face Transformers · PEFT/LoRA · RAG (hybrid search, reranking) · scikit-learn · LLM APIs · MCP
 **Backend:** C# / .NET · ASP.NET Core · FastAPI · Flask · Java / Spring · PHP
 **Frontend & mobile:** React · Angular · Next.js · React Native · Flutter
 **Data & tools:** PostgreSQL · MySQL · SQL Server · Redis · Docker · Git
