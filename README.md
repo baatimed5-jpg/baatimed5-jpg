@@ -13,7 +13,7 @@ I'm looking for a **6-month final-year internship (PFE) in AI/ML starting Januar
 ### [📚 PaperTrail: research-paper RAG assistant with verifiable citations](https://github.com/baatimed5-jpg/research-paper-rag)
 Reads scientific papers and answers questions with a **citation on every claim**, pointing to the exact passage and page. It also compares papers side by side, extracts key findings and finds research gaps.
 - **Pipeline:** PDF parsing with section and page detection → semantic chunking → **hybrid search** (BM25 + BGE embeddings, Reciprocal Rank Fusion) → **cross-encoder reranking** → grounded LLM (GPT-OSS-120B) with citation checking.
-- **Measured:** on 160 benchmark questions, reranking finds the exact source passage first **79%** of the time (Recall@10 **96%**), and **93%** of answer claims are supported by their citation (LLM judge).
+- **Measured:** on 160 benchmark questions, reranking finds the exact source passage first **79%** of the time (Recall@10 **96%**), and in an LLM-judge check of full answers, **93%** of claims (55/59) are supported by the passage they cite.
 
 `Python` `RAG` `Sentence-Transformers` `BM25` `Cross-encoder` `PyMuPDF` `FastAPI` `React`
 
