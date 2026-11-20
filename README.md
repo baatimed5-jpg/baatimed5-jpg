@@ -6,6 +6,8 @@ I'm looking for a **6-month final-year internship (PFE) in AI/ML starting Januar
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-baatimed-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/baatimed-497351404)
 ![ISTQB](https://img.shields.io/badge/ISTQB-Certified%20Tester-2E7D32)
 
+### 🌐 [**See all my projects with live demos → baatimed5-jpg.github.io**](https://baatimed5-jpg.github.io)
+
 ---
 
 ## 🧠 AI / Machine Learning projects
